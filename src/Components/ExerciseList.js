@@ -79,17 +79,3 @@ const ExerciseList = () => {
 export default ExerciseList;
 
 
-
-
-// <div className="past-conversations-box">
-// <h3>Past Conversations</h3>
-// <div className="past-conversations">
-//   {pastConversations.map((conversation) => (
-//     <div key={conversation.id} className="conversation-item">
-//       <p>{conversation.name}</p>
-//       {/* Add brief description here */}
-//       <div className="description">Brief description of the conversation</div>
-//     </div>
-//   ))}
-// </div>
-// </div>
