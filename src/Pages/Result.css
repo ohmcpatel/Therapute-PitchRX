@@ -1,0 +1,29 @@
+.result-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    width: 229px;
+    height: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .video-container {
+    position: relative;
+  }
+  
+  .video-container video,
+  .video-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .video-container video {
+    scale: .7;
+  }
+  
