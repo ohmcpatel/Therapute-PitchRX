@@ -6,7 +6,7 @@ export default function ActivityCard(props) {
     const navigate = useNavigate()
     const handleClick = () => {
 
-        navigate("/progress")
+        navigate("/upload")
 
 
         // async keyword 

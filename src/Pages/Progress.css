@@ -9,6 +9,7 @@
   
   .loading-text {
     margin-bottom: 20px;
+    color: white;
   }
   
   .loading-bar-container {
@@ -21,7 +22,7 @@
   
   .loading-bar {
     height: 100%;
-    background-color: #4CAF50; /* Background color of the loading bar */
+    background-color: #3e86ea; /* Background color of the loading bar */
     border-radius: 10px; /* Rounded corners for the loading bar */
     transition: width 0.5s ease; /* Smooth transition for width changes */
   }

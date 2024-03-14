@@ -27,7 +27,7 @@ const Progress = () => {
 
   return (
     <div className="loading-container">
-      <div className="loading-text">Analyzing patient data...</div>
+      <div className="loading-text">Analyzing exercise data...</div>
       <div className="loading-bar-container">
         <div className="loading-bar" style={{ width: `${width}%` }}></div>
       </div>

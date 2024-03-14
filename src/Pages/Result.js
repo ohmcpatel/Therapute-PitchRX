@@ -6,20 +6,14 @@ import correctVideoUrl from '../images/result2.gif';
 const Result = () => {
   return (
     <div className="result-container">
-      <div className="card">
-        <div className="video-container wrong">
-          <video controls>
-            <source src={wrongVideoUrl} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-
-        </div>
+      <div className="video-container">
+        <video controls>
+          <source src={wrongVideoUrl} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
-      <div className="card">
-        <div className="video-container correct">
-          <img src={correctVideoUrl} alt="GIF" />
-
-        </div>
+      <div className="video-container">
+        <img src={correctVideoUrl} alt="GIF" />
       </div>
     </div>
   );
